@@ -1,0 +1,16 @@
+p{
+font-size: x-large;
+}
+
+h1{
+    background-color: brown;
+}
+
+.aluno{
+    color: chartreuse;
+    text-shadow: 2ex;
+}
+
+#curso{
+    text-align: center;
+}
