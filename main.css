@@ -3,7 +3,8 @@ font-size: x-large;
 }
 
 h1{
-    background-color: brown;
+    background-color: rgb(57, 12, 219);
+    text-align: center;
 }
 
 .aluno{
@@ -13,4 +14,36 @@ h1{
 
 #curso{
     text-align: center;
+}
+.Catedral{
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+}
+.Congresso{
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+}
+.flex-container{
+margin: 0;
+padding: 0;
+display: flex;
+list-style: none;
+}
+.flex-item{
+background-color: chartreuse;
+height: 50px;
+width: 50px;
+line-height: 50px;
+font-size: x-large;
+color: blueviolet;
+margin: 5px;
+}
+.linha{
+flex-direction: row;
+}
+aluna-reversa{
+    float: left;
+    flex-direction: column-reverse;
 }
