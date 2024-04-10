@@ -1,49 +1,59 @@
-p{
-font-size: x-large;
+p {
+    font-size: x-large;
 }
 
-h1{
+h1 {
     background-color: rgb(57, 12, 219);
     text-align: center;
 }
 
-.aluno{
+.aluno {
     color: chartreuse;
     text-shadow: 2ex;
 }
 
-#curso{
+#curso {
     text-align: center;
 }
-.Catedral{
+
+.Catedral {
     width: 400px;
     height: 300px;
     border-radius: 50px;
 }
-.Congresso{
-    width: 400px;
-    height: 300px;
+
+.Congresso {
+    width: 600px;
+    height: 400px;
     border-radius: 50px;
 }
-.flex-container{
-margin: 0;
-padding: 0;
-display: flex;
-list-style: none;
+
+.flex-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
-.flex-item{
-background-color: chartreuse;
-height: 50px;
-width: 50px;
-line-height: 50px;
-font-size: x-large;
-color: blueviolet;
-margin: 5px;
+
+.flex-item {
+    width: 45%;
 }
-.linha{
-flex-direction: row;
+
+.linha {
+    flex-direction: row;
+    justify-content: space-between;
 }
-aluna-reversa{
+
+.coluna {
+    float: left;
+    flex-direction: column;
+}
+
+.aluna-reversa {
     float: left;
     flex-direction: column-reverse;
+}
+.Seta{
+    width: 700px;
+    height: 300px;
+    border-radius: 50px;
 }
