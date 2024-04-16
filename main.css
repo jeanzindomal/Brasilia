@@ -3,30 +3,39 @@ p {
 }
 
 h1 {
-    background-color: rgb(57, 12, 219);
+    background-color: #614D62;
     text-align: center;
+    color: white;
 }
 
-.aluno {
-    color: chartreuse;
-    text-shadow: 2ex;
+h2 {
+    background-color: #614D62;
+    color: white;
 }
 
-#curso {
+body {
+    background-color: #97B7E8;
+}
+
+#Local {
     text-align: center;
+    background-color: #614D62;
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
 }
 
 .Catedral {
-    width: 400px;
-    height: 300px;
+    width: 860px;
+    height: 400px;
     border-radius: 50px;
 }
 
 .Congresso {
-    width: 600px;
+    width: 800px;
     height: 400px;
     border-radius: 50px;
-}
+}   
 
 .flex-container {
     margin: 0;
@@ -52,8 +61,18 @@ h1 {
     float: left;
     flex-direction: column-reverse;
 }
-.Seta{
+
+.Setadireita {
     width: 700px;
     height: 300px;
     border-radius: 50px;
+    filter: alpha(opacity=40);
+
+}
+
+.Setaesquerda {
+    width: 900px;
+    height: 550px;
+    border-radius: 50px;
+
 }
